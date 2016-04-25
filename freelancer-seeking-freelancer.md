@@ -1,8 +1,12 @@
-#### Node.js and Socket.io Architecture Freelancer
 
-### Conntact @larrymason
+# Freelancer? Looking for Freelancer?
+
+## Developers
+
+### Node.js and Socket.io Architecture Freelancer
 
 Larry Mason
+- Tech256: @larrymason
 - larry.mason@alltowntech.com
 - (256) 468-6439
 
