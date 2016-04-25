@@ -2,6 +2,12 @@
 
 ## Design
 
+### Archer Sparrow
+- Contact: @chrisbeaman
+- http://www.archersparrow.com
+- Huntsville, AL
+- Always looking for good designers and developers to work on web projects
+
 ## Developers
 
 
