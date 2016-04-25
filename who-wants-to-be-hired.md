@@ -2,7 +2,8 @@
 
 ## Developers
 
-Tyler Hughes
-tech256: @thughesit
-Twitter: @thughesIT
-[Resume](http://stackoverflow.com/cv/thughes01)
+Tyler Hughes ([Resume](http://stackoverflow.com/cv/thughes01))
+* tech256: @thughesit
+* Twitter: @thughesIT
+
+
