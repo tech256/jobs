@@ -4,11 +4,14 @@
 
 ## Developers
 
-### NuSpatial
 
-- Geospatial/Robotics Software Engineer
+### Geospatial/Robotics Software Engineer - NuSpatial
+- Contact: @mjcarroll
 - http://nuspatial.com
 - Huntsville, AL
 - Fulltime
+
+### Kernel Developer - Raytheon
+- Contact: @noffke
 
 ## UI/UX
