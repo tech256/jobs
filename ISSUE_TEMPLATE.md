@@ -3,10 +3,10 @@
 ## Acme, Inc.
 https://en.wikipedia.org/wiki/Acme_Corporation
 
-## About Position
+### About Position
 Seeking comically large firework tester. Experience with flightless birds a plus.
 
-## Contact
+### Contact
 - Tech256: @acmebob
 - Twitter: @acme
 - Location: Anywhere
@@ -19,10 +19,10 @@ Seeking comically large firework tester. Experience with flightless birds a plus
 ## Wile E. Coyote
 Wolf. Error-prone.
 
-## Resume
+### Resume
 [Content or URL]
 
-## Contact
+### Contact
 - Tech256: @wilecoyote
 - (555) 123-4567
 - etc...
