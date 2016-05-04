@@ -1,5 +1,7 @@
-> North Alabama Tech Jobs Board
+# [tech256][https://tech256.com] Jobs Board
 
- - [Who is Hiring?](who-is-hiring.md)
- - [Who Wants to Be Hired?](who-wants-to-be-hired.md)
- - [Freelancer? Seeking Freelancer?](freelancer-seeking-freelancer.md)
+## Getting Started
+
+Check out the [open issues](https://github.com/tech256/jobs/issues) for who is hiring and who is looking to be hired.
+Listing are organized using labels.
+Have questions? Ask.
