@@ -1,4 +1,4 @@
-# [tech256][https://tech256.com] Jobs Board
+# [tech256](https://tech256.com) Jobs Board
 
 ## Getting Started
 
