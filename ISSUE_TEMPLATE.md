@@ -22,6 +22,6 @@ Wolf. Error-prone.
 [Content or URL]
 
 ### Contact
-- Tech256: @wilecoyote
+- Tech256: (at)wilecoyote
 - (555) 123-4567
 - etc...
