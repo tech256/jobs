@@ -6,8 +6,8 @@
 Seeking comically large firework tester. Experience with flightless birds a plus.
 
 ### Contact
-- Tech256: @acmebob
-- Twitter: @acme
+- Tech256: (at)acmebob
+- Twitter: (at)acme
 - Location: Anywhere
 - etc...
 
