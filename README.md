@@ -5,7 +5,7 @@
 Check out the [open issues](https://github.com/tech256/jobs/issues) for who is hiring and available candidates.
 Listings are organized using labels.
 Feel free to create a [new issue](https://github.com/tech256/jobs/issues/new) if you have a position to fill, are actively looking for work, or just want to passively be included as available for hire.
-We will try to keep the data fresh by periodically pinging "old" issues for current status.
+Once a week, the Stale bot will flag postings (issues) older than 90 days as stale. If the postition is still available, comment on the posting within 7 days and bot will ignore it. If the posting has closed you can either go ahead and close it yourself or you can leave it alone and the bot will close it automatically the following week.
 
 
 ## Predefined Searches
