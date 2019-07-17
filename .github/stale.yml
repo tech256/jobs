@@ -5,7 +5,7 @@ daysUntilStale: 90
 
 # Number of days of inactivity before a stale Issue or Pull Request is closed.
 # Set to false to disable. If disabled, issues still need to be closed manually, but will remain marked as stale.
-daysUntilClose: 7
+# daysUntilClose: 7
 
 # Issues or Pull Requests with these labels will never be considered stale. Set to `[]` to disable
 exemptLabels:
@@ -22,16 +22,16 @@ exemptMilestones: false
 staleLabel: stale
 
 # Comment to post when marking as stale. Set to `false` to disable
-markComment: >
-  Thanks for contributing to this issue. As it has been over 90 days since the last activity, we will be automatically closing the issue in 7 days. This is often because the posting wasn't updated or it's no longer applicable. If that's not the case, please respond before the issue is closed.
+# markComment: >
+#  Thanks for contributing to this issue. As it has been over 90 days since the last activity, we will be automatically closing the issue in 7 days. This is often because the posting wasn't updated or it's no longer applicable. If that's not the case, please respond before the issue is closed.
 # Comment to post when removing the stale label.
 # unmarkComment: >
 #   Your comment here.
 
 # Comment to post when closing a stale issue or pull request. Set to `false` to disable
-closeComment: false
-#closeComment: >
-#  Since no response has been made in the last 7 days, we are automatically closing the issue.
+closeComment: true
+closeComment: >
+ Thanks for contributing to this issue. As it has been over 90 days since the last activity, we will be automatically closing the issue. This is often because the posting wasn't updated or it's no longer applicable. If that's not the case, please comment below and @GeneralPallas will follow up with you.
 
 # Limit the number of actions per hour, from 1-30. Default is 30
 limitPerRun: 30
@@ -50,4 +50,3 @@ only: issues
 # issues:
 #   exemptLabels:
 #     - confirmed
-
