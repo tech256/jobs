@@ -1,0 +1,19 @@
+name: Close Stale Issues
+description: 'Close issues and pull requests with no recent activity'
+on:
+  schedule:
+  - cron: "0 10 * * *"
+  description: 'Close issues and pull requests with no activity in the last 90 days'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/stale@v3.0.6
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-issue-label: 'stale'
+        exempt-issue-labels: 'locked,pinned'
+        stale-issue-message: 'Thanks for contributing to this issue. As it has been over 90 days since the last activity, we will be automatically closing the issue in 7 days. This is often because the posting wasn't updated or it's no longer applicable. If that's not the case, please comment below and @PallasStreams will follow up with you.'
+        days-before-stale: 90
+        days-before-close: 7
