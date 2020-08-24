@@ -1,7 +1,7 @@
 name: Close Stale Issues
 on:
   schedule:
-  - cron: "0 0-23 * * *"
+  - cron: "0 10 * * *"
 
 jobs:
   stale:
@@ -12,6 +12,6 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-label: 'stale'
         exempt-issue-labels: 'locked,pinned'
-        stale-issue-message: "Thanks for contributing to this issue. As it has been over 90 days since the last activity, we will be automatically closing the issue in 7 days. This is often because the posting wasn't updated or it's no longer applicable. If that's not the case, please comment below and @PallasStreams will follow up with you."
+        stale-issue-message: "Thanks for contributing to this issue. As it has been over 90 days since the last activity, we will be automatically closing the issue in 7 days. This is often because the posting wasn't updated or it's no longer applicable. If that's not the case, please comment below and someone will follow up with you."
         days-before-stale: 90
         days-before-close: 7
