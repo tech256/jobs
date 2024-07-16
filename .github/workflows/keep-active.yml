@@ -1,0 +1,41 @@
+name: Keep Repository Active
+
+on:
+  schedule:
+    - cron: '0 0 */59 * *' # Runs every 59 days
+  push:
+    branches:
+      - main
+
+jobs:
+  update-counter:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Update counter
+      id: update_counter
+      run: |
+        counter_file="counter.txt"
+        if [ -f "$counter_file" ]; then
+          # If counter.txt exists, read its current value
+          current_counter=$(cat "$counter_file")
+        else
+          # If counter.txt doesn't exist, start with 0
+          current_counter=0
+        fi
+        # Increment the counter
+        new_counter=$((current_counter + 1))
+        # Write the new counter value to counter.txt
+        echo "$new_counter" > "$counter_file"
+        echo "New counter value: $new_counter"
+
+    - name: Commit changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add counter.txt
+        git commit -m "Update counter to ${{ steps.update_counter.outputs.new_counter }}"
+        git push
